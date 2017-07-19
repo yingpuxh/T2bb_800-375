@@ -1,0 +1,901 @@
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 5.2.4.3               20xx-xx-xx         *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /storage/yx16344/generate_gridpack/SMS-SbotSbot_375/process/Cards/me5_configuration.txt  
+INFO: load configuration from /storage/yx16344/generate_gridpack/MG5_aMC_v2_4_3/input/mg5_configuration.txt  
+INFO: load configuration from /storage/yx16344/generate_gridpack/SMS-SbotSbot_375/process/Cards/me5_configuration.txt  
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+generate_events 
+The following switches determine which programs are run:
+ 1 Run the pythia shower/hadronization:                              pythia=NOT INSTALLED
+ 2 Run PGS as detector simulator:                                       pgs=NOT INSTALLED
+ 3 Run Delphes as detector simulator:                               delphes=NOT INSTALLED
+ 4 Decay particles with the MadSpin module:                         madspin=OFF
+ 5 Add weights to the events based on changing model parameters:   reweight=OFF
+  Either type the switch number (1 to 5) to change its default setting,
+  or set any switch explicitly (e.g. type 'madspin=ON' at the prompt)
+  Type '0', 'auto', 'done' or just press enter when you are done.
+ [[4m0[0m, 4, 5, auto, done, madspin=ON, madspin=OFF, madspin, reweight=ON, ... ][60s to answer] 
+>Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path][60s to answer] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000001,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000002,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;34mWARNING: Note that this parameter seems to be ignore by MG.
+MG will use instead the expression: : msd1
+You need to match this expression for external program (such pythia). [0m
+[1;60mINFO: modify param_card information BLOCK mass with id (1000003,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;34mWARNING: Note that this parameter seems to be ignore by MG.
+MG will use instead the expression: : msu1
+You need to match this expression for external program (such pythia). [0m
+[1;60mINFO: modify param_card information BLOCK mass with id (1000004,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000005,) set to 375.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000006,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (2000001,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (2000002,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;34mWARNING: Note that this parameter seems to be ignore by MG.
+MG will use instead the expression: : msd4
+You need to match this expression for external program (such pythia). [0m
+[1;60mINFO: modify param_card information BLOCK mass with id (2000003,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;34mWARNING: Note that this parameter seems to be ignore by MG.
+MG will use instead the expression: : msu4
+You need to match this expression for external program (such pythia). [0m
+[1;60mINFO: modify param_card information BLOCK mass with id (2000004,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (2000005,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (2000006,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000021,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000022,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000023,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000024,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000025,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000035,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000037,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;34mWARNING: invalid set command param_card mass 1000039 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000011,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000012,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;34mWARNING: Note that this parameter seems to be ignore by MG.
+MG will use instead the expression: : msl1
+You need to match this expression for external program (such pythia). [0m
+[1;60mINFO: modify param_card information BLOCK mass with id (1000013,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;34mWARNING: Note that this parameter seems to be ignore by MG.
+MG will use instead the expression: : msn1
+You need to match this expression for external program (such pythia). [0m
+[1;60mINFO: modify param_card information BLOCK mass with id (1000014,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000015,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (1000016,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (2000011,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;34mWARNING: Note that this parameter seems to be ignore by MG.
+MG will use instead the expression: : msl4
+You need to match this expression for external program (such pythia). [0m
+[1;60mINFO: modify param_card information BLOCK mass with id (2000013,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK mass with id (2000015,) set to 100000.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000001,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000002,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000003,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000004,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000005,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000006,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000011,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000012,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000013,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000014,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000015,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000016,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000021,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000023,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000024,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000025,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000035,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (1000037,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (2000001,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (2000002,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (2000003,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (2000004,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (2000005,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (2000006,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (2000011,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (2000013,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>[1;60mINFO: modify param_card information BLOCK decay with id (2000015,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+  9 / plot       : plot_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 9, plot, enter path] 
+>Generating gridpack with run name run_01
+survey  run_01 --accuracy=0.01 --points=2000 --iterations=8 --gridpack=.true.
+INFO: compile directory 
+compile Source Directory
+Using random number seed offset = 21
+INFO: Running Survey 
+Creating Jobs
+Working on SubProcesses
+INFO:     P3_gg_b1b1xgg  
+INFO:     P3_gg_b1b1xbbx  
+INFO:     P3_gb_b1b1xgb  
+INFO:     P3_bbx_b1b1xgg  
+INFO:     P3_gg_b1b1xqq  
+INFO:     P3_gq_b1b1xgq  
+INFO:     P3_qq_b1b1xgg  
+INFO:     P3_bb_b1b1xbb  
+INFO:     P2_gg_b1b1xg  
+INFO:     P3_qq_b1b1xbbx  
+INFO:     P3_qb_b1b1xqb  
+INFO:     P3_bbx_b1b1xqq  
+INFO:     P3_qq_b1b1xqq  
+INFO:     P2_gb_b1b1xb  
+INFO:     P2_bbx_b1b1xg  
+INFO:     P2_gq_b1b1xq  
+INFO:     P2_qq_b1b1xg  
+INFO:     P1_gg_b1b1x  
+INFO:     P1_bbx_b1b1x  
+INFO:     P1_qq_b1b1x  
+INFO:  Idle: 4,  Running: 319,  Completed: 33 [  0.22s  ] 
+INFO:  Idle: 4,  Running: 318,  Completed: 34 [  0.47s  ] 
+INFO:  Idle: 0,  Running: 233,  Completed: 123 [  30.8s  ] 
+INFO:  Idle: 0,  Running: 123,  Completed: 233 [  1m 0s  ] 
+INFO:  Idle: 0,  Running: 43,  Completed: 313 [  1m 31s  ] 
+INFO:  Idle: 0,  Running: 21,  Completed: 335 [  2m 1s  ] 
+INFO:  Idle: 0,  Running: 11,  Completed: 345 [  2m 31s  ] 
+INFO:  Idle: 0,  Running: 4,  Completed: 352 [  3m 1s  ] 
+INFO:  Idle: 0,  Running: 3,  Completed: 353 [  3m 33s  ] 
+INFO:  Idle: 0,  Running: 1,  Completed: 355 [  4m 3s  ] 
+INFO:  Idle: 0,  Running: 1,  Completed: 355 [  4m 33s  ] 
+INFO:  Idle: 0,  Running: 1,  Completed: 355 [  5m 4s  ] 
+INFO:  Idle: 0,  Running: 1,  Completed: 355 [  5m 34s  ] 
+INFO: All jobs finished 
+INFO:  Idle: 0,  Running: 0,  Completed: 356 [  6m 4s  ] 
+  === Results Summary for run: run_01 tag: tag_1 ===
+
+     Cross-section :   4.014 +- 0.009917 pb
+     Nb of events :  0
+ 
+INFO: End survey 
+combine_events
+INFO: Combining Events 
+store_events
+INFO: Storing parton level results 
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+INFO: End Parton 
+decay_events -from_cards
+create_gridpack
+INFO: Creating gridpack 
+P3_gg_b1b1xgg
+P3_gg_b1b1xbbx
+P3_gb_b1b1xgb
+P3_bbx_b1b1xgg
+P3_gg_b1b1xqq
+P3_gq_b1b1xgq
+P3_qq_b1b1xgg
+P3_bb_b1b1xbb
+P2_gg_b1b1xg
+P3_qq_b1b1xbbx
+P3_qb_b1b1xqb
+P3_bbx_b1b1xqq
+P3_qq_b1b1xqq
+P2_gb_b1b1xb
+P2_bbx_b1b1xg
+P2_gq_b1b1xq
+P2_qq_b1b1xg
+P1_gg_b1b1x
+P1_bbx_b1b1x
+P1_qq_b1b1x
+Cleaning  SubProcesses.................... 
+INFO: gridpack created 
+quit
+INFO: storring files of previous run 
+INFO: Done 
+INFO:  
+ 
+INFO:  
+ 
+launch in debug mode

@@ -1,0 +1,4 @@
+1       g b > b1 b1~ b
+mirror  b g > b1 b1~ b
+2       g b~ > b1 b1~ b~
+mirror  b~ g > b1 b1~ b~

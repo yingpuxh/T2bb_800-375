@@ -1,0 +1,14 @@
+1       u u > b1 b1~ u u,c c > b1 b1~ c c,d d > b1 b1~ d d,s s > b1 b1~ s s
+mirror  none
+2       u u~ > b1 b1~ u u~,c c~ > b1 b1~ c c~,d d~ > b1 b1~ d d~,s s~ > b1 b1~ s s~
+mirror  u~ u > b1 b1~ u u~,c~ c > b1 b1~ c c~,d~ d > b1 b1~ d d~,s~ s > b1 b1~ s s~
+3       u~ u~ > b1 b1~ u~ u~,c~ c~ > b1 b1~ c~ c~,d~ d~ > b1 b1~ d~ d~,s~ s~ > b1 b1~ s~ s~
+mirror  none
+4       u c > b1 b1~ u c,u d > b1 b1~ u d,u s > b1 b1~ u s,c d > b1 b1~ c d,c s > b1 b1~ c s,d s > b1 b1~ d s
+mirror  c u > b1 b1~ u c,d u > b1 b1~ u d,s u > b1 b1~ u s,d c > b1 b1~ c d,s c > b1 b1~ c s,s d > b1 b1~ d s
+5       u u~ > b1 b1~ c c~,u u~ > b1 b1~ d d~,u u~ > b1 b1~ s s~,c c~ > b1 b1~ u u~,c c~ > b1 b1~ d d~,c c~ > b1 b1~ s s~,d d~ > b1 b1~ u u~,d d~ > b1 b1~ c c~,d d~ > b1 b1~ s s~,s s~ > b1 b1~ u u~,s s~ > b1 b1~ c c~,s s~ > b1 b1~ d d~
+mirror  u~ u > b1 b1~ c c~,u~ u > b1 b1~ d d~,u~ u > b1 b1~ s s~,c~ c > b1 b1~ u u~,c~ c > b1 b1~ d d~,c~ c > b1 b1~ s s~,d~ d > b1 b1~ u u~,d~ d > b1 b1~ c c~,d~ d > b1 b1~ s s~,s~ s > b1 b1~ u u~,s~ s > b1 b1~ c c~,s~ s > b1 b1~ d d~
+6       u c~ > b1 b1~ u c~,u d~ > b1 b1~ u d~,u s~ > b1 b1~ u s~,c u~ > b1 b1~ c u~,c d~ > b1 b1~ c d~,c s~ > b1 b1~ c s~,d u~ > b1 b1~ d u~,d c~ > b1 b1~ d c~,d s~ > b1 b1~ d s~,s u~ > b1 b1~ s u~,s c~ > b1 b1~ s c~,s d~ > b1 b1~ s d~
+mirror  c~ u > b1 b1~ u c~,d~ u > b1 b1~ u d~,s~ u > b1 b1~ u s~,u~ c > b1 b1~ c u~,d~ c > b1 b1~ c d~,s~ c > b1 b1~ c s~,u~ d > b1 b1~ d u~,c~ d > b1 b1~ d c~,s~ d > b1 b1~ d s~,u~ s > b1 b1~ s u~,c~ s > b1 b1~ s c~,d~ s > b1 b1~ s d~
+7       u~ c~ > b1 b1~ u~ c~,u~ d~ > b1 b1~ u~ d~,u~ s~ > b1 b1~ u~ s~,c~ d~ > b1 b1~ c~ d~,c~ s~ > b1 b1~ c~ s~,d~ s~ > b1 b1~ d~ s~
+mirror  c~ u~ > b1 b1~ u~ c~,d~ u~ > b1 b1~ u~ d~,s~ u~ > b1 b1~ u~ s~,d~ c~ > b1 b1~ c~ d~,s~ c~ > b1 b1~ c~ s~,s~ d~ > b1 b1~ d~ s~

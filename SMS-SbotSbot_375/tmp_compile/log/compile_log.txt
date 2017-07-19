@@ -1,0 +1,149 @@
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent
+Using static libraries
+rm -f *.o ../lib/libdsample.a ../lib/libgeneric.a ../bin/internal/gen_ximprove ../bin/internal/combine_events ../bin/internal/gensudgrid ../bin/internal/combine_runs
+cd PDF; make clean; cd ..
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source/PDF'
+rm -f *.o ../../lib/libpdf.a
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source/PDF'
+cd DHELAS; make clean; cd ..
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source/DHELAS'
+rm -f *.o ../../lib/libdhelas.a
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source/DHELAS'
+cd CERNLIB; make clean; cd ..
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source/CERNLIB'
+rm -f *.o ../../lib/libcernlib.a
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source/CERNLIB'
+cd MODEL; make clean; cd ..
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source/MODEL'
+rm -f *.o ../../lib/libmodel.a
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source/MODEL'
+if [ -d ./CutTools/ ]; then cd ./CutTools/; make clean; cd ..; fi
+if [ -d ./IREGI/src/ ]; then cd ./IREGI/src/; make clean; cd ..; fi
+for i in `ls -d ../SubProcesses/P*`; do cd $i; make clean; cd -; done;
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P1_bbx_b1b1x'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P1_bbx_b1b1x'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P1_gg_b1b1x'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P1_gg_b1b1x'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P1_qq_b1b1x'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P1_qq_b1b1x'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P2_bbx_b1b1xg'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P2_bbx_b1b1xg'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P2_gb_b1b1xb'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P2_gb_b1b1xb'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P2_gg_b1b1xg'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P2_gg_b1b1xg'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P2_gq_b1b1xq'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P2_gq_b1b1xq'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P2_qq_b1b1xg'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P2_qq_b1b1xg'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_bb_b1b1xbb'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_bb_b1b1xbb'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_bbx_b1b1xgg'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_bbx_b1b1xgg'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_bbx_b1b1xqq'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_bbx_b1b1xqq'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_gb_b1b1xgb'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_gb_b1b1xgb'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_gg_b1b1xbbx'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_gg_b1b1xbbx'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_gg_b1b1xgg'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_gg_b1b1xgg'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_gg_b1b1xqq'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_gg_b1b1xqq'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_gq_b1b1xgq'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_gq_b1b1xgq'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_qb_b1b1xqb'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_qb_b1b1xqb'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_qq_b1b1xbbx'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_qq_b1b1xbbx'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_qq_b1b1xgg'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_qq_b1b1xgg'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+make[1]: Entering directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_qq_b1b1xqq'
+rm -f *.o gensym madevent
+make[1]: Leaving directory '/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/SubProcesses/P3_qq_b1b1xqq'
+/storage/yx16344/generate_gridpack/SMS-SbotSbot_375/tmp_compile/madevent/Source
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+rm -f *.o gensym madevent
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+P3_gg_b1b1xgg
+P3_gg_b1b1xbbx
+P3_gb_b1b1xgb
+P3_bbx_b1b1xgg
+P3_gg_b1b1xqq
+P3_gq_b1b1xgq
+P3_qq_b1b1xgg
+P3_bb_b1b1xbb
+P2_gg_b1b1xg
+P3_qq_b1b1xbbx
+P3_qb_b1b1xqb
+P3_bbx_b1b1xqq
+P3_qq_b1b1xqq
+P2_gb_b1b1xb
+P2_bbx_b1b1xg
+P2_gq_b1b1xq
+P2_qq_b1b1xg
+P1_gg_b1b1x
+P1_bbx_b1b1x
+P1_qq_b1b1x
+

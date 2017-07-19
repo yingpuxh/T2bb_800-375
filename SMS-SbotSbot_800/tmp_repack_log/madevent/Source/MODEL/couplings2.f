@@ -1,0 +1,35 @@
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+c      written by the UFO converter
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+      SUBROUTINE COUP2()
+
+      IMPLICIT NONE
+      INCLUDE 'model_functions.inc'
+
+      DOUBLE PRECISION PI, ZERO
+      PARAMETER  (PI=3.141592653589793D0)
+      PARAMETER  (ZERO=0D0)
+      INCLUDE 'input.inc'
+      INCLUDE 'coupl.inc'
+      GC_6 = -G
+      GC_7 = MDL_COMPLEXI*G
+      GC_8 = G
+      GC_18 = MDL_COMPLEXI*MDL_G__EXP__2*MDL_I12X33+MDL_COMPLEXI
+     $ *MDL_G__EXP__2*MDL_I13X33
+      GC_21 = MDL_COMPLEXI*MDL_G__EXP__2*MDL_I12X36+MDL_COMPLEXI
+     $ *MDL_G__EXP__2*MDL_I13X36
+      GC_33 = MDL_COMPLEXI*MDL_G__EXP__2*MDL_I12X66+MDL_COMPLEXI
+     $ *MDL_G__EXP__2*MDL_I13X66
+      GC_71 = -(MDL_COMPLEXI*G*MDL_I5X33)-MDL_COMPLEXI*G*MDL_I6X33
+      GC_73 = -(MDL_COMPLEXI*G*MDL_I5X36)-MDL_COMPLEXI*G*MDL_I6X36
+      GC_79 = MDL_COMPLEXI*G*MDL_I5X63+MDL_COMPLEXI*G*MDL_I6X63
+      GC_81 = -(MDL_COMPLEXI*G*MDL_I5X66)-MDL_COMPLEXI*G*MDL_I6X66
+      GC_96 = MDL_COMPLEXI*MDL_G__EXP__2*MDL_I75X44
+      GC_108 = -(MDL_COMPLEXI*G*MDL_RD3X3*MDL_SQRT__2)
+      GC_513 = MDL_COMPLEXI*G*MDL_CONJG__RD3X6*MDL_SQRT__2
+      GC_518 = MDL_COMPLEXI*G*MDL_CONJG__RD4X4*MDL_SQRT__2
+      GC_528 = -(MDL_COMPLEXI*G*MDL_CONJG__RD6X3*MDL_SQRT__2)
+      GC_533 = MDL_COMPLEXI*G*MDL_CONJG__RD6X6*MDL_SQRT__2
+      GC_587 = -(MDL_COMPLEXI*G*MDL_CONJG__RU2X2*MDL_SQRT__2)
+      END
